@@ -13,7 +13,7 @@ function Example() {
 
   return (
     <div>
-      <h1>Todo</h1>
+      <h1>Todo App</h1>
       <input
         ref={inputRef}
         placeholder="Enter todo..."
