@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from '~/App';
-import Example from './Example';
+import Job from './Store/Jobs/Job';
 import reportWebVitals from './reportWebVitals';
-import { StoreProvider } from '~/Store/Jobs';
+import { StoreProvider } from '~/Store/Jobs/handlesData';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <StoreProvider>
-      <Example />
       {/* <App /> */}
+      <Job />
     </StoreProvider>
   </React.StrictMode>,
 );

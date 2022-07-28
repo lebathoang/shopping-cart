@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { useStore, actions } from './Store/Jobs';
+import { useStore, actions } from './handlesData';
 
 function Example() {
   const [state, dispatch] = useStore();
