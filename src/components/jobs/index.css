@@ -1,0 +1,6 @@
+.clear {
+  padding-left: 5px;
+}
+.clear:hover {
+  cursor: pointer;
+}

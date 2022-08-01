@@ -1,8 +1,8 @@
 import { useReducer, useRef } from 'react';
 
-import { setCount, addCount, addInputCount, deleteCount, deleteInputCount } from './handlesData/actions';
-import reducer, { initState } from './handlesData/reducer';
-import './Count.css';
+import { setCount, addCount, addInputCount, deleteCount, deleteInputCount } from '../../Store/Counts/actions';
+import reducer, { initState } from '../../Store/Counts/reducer';
+import './index.css';
 
 function Count() {
   const [counts, dispatch] = useReducer(reducer, initState);
